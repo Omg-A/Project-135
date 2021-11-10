@@ -23,10 +23,12 @@
 	    <span class = "note">Input what you want to find. Only what you want to find will be detected</span>
   	</h3>
 
-    <input placeholder = "What Do You Want To Find?"></input>
+    <input placeholder = "What Do You Want To Find?" id = "input"></input>
     <br><br>
-    <h3 id = "result" class = "btn btn-danger">Status:</h3>
-    <h3 id = "number-of-objects" class = "btn btn-warning"> Found</h3>
+    <button onclick = "start();" class = "btn btn-success" id = "start">Start</button>
+    <br><br>
+    <h3 id = "result" class = "btn btn-danger">Status: Waiting to start</h3>
+    <h3 id = "number-of-objects" class = "btn btn-warning">Waiting to start</h3>
   </center>
 
   <script src="main.js"></script>
